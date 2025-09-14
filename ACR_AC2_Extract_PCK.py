@@ -89,7 +89,7 @@ if __name__ == "__main__":
 
     pck_path = sys.argv[1]
 
-    # Folder next to BNK, named after the BNK file (without extension)
+    # Folder next to PCK, named after the BNK file (without extension)
     output_folder = os.path.join(
         os.path.dirname(pck_path),
         os.path.splitext(os.path.basename(pck_path))[0]
@@ -99,3 +99,4 @@ Extract_PCK(pck_path, output_folder)
 
             
         
+
